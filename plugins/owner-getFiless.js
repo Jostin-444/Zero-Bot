@@ -36,14 +36,14 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 
     try {
         const Base = '.'; // Directorio actual
-        const name = 'Sylphiette_Respaldo';
+        const name = 'Zero_Respaldo';
 
         const rutaZip = ZipFiles(Base, name);
 
-        const Sylphiette = fs.readFileSync(rutaZip);
+        const Zero = fs.readFileSync(rutaZip);
 
         await conn.sendMessage(m.chat, { 
-            document: Sylphiette, 
+            document: Zero, 
             mimetype: 'application/zip', 
             fileName: `${name}.zip`, 
             caption: "Aquí tienes los archivos"
