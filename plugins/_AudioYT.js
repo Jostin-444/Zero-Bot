@@ -22,10 +22,10 @@ let handler = async (m, { conn, text, isPrems, isOwner, usedPrefix, command }) =
       externalAdReply: {
         showAdAttribution: true,
         mediaType: 1,
-        mediaUrl: 'https://whatsapp.com/channel/0029Va6InNBFCCoM9xzKFG3G',
+        mediaUrl: 'https://whatsapp.com/channel/0029Vas84d48PgsGgLnVvl0y',
         title: resultados.titulo,
         body: wm,
-        sourceUrl: 'https://whatsapp.com/channel/0029Va6InNBFCCoM9xzKFG3G',
+        sourceUrl: 'https://whatsapp.com/channel/0029Vas84d48PgsGgLnVvl0y',
         thumbnail: imagen
       }
     }
