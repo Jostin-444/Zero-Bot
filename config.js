@@ -50,7 +50,7 @@ global.packname = 'Zero | Bot - Multi Device'
 global.author = `Zero`
 global.wm = '┊ꦿ💜⿻ Zero | Wa Bot❜ೃ'
 
-global.insta = 'https://www.instagram.com/'
+global.insta = 'https://www.instagram.com/zxsh1zxt/'
 	
 //imágenes
 global.imagen0 = fs.readFileSync('./src/Sylph_logo.jpg');
