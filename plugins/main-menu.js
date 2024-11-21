@@ -76,7 +76,7 @@ const defaultMenu = {
   │ *𖦹 Diamond: 💎*
   ╰───────────────⳹
 
-\`https://whatsapp.com/channel/0029Va6InNBFCCoM9xzKFG3G\`
+\`https://whatsapp.com/channel/0029Vas84d48PgsGgLnVvl0y\`
 
   ╭┈──────────────── ꒰ 🌺 ꒱
  │ *𖦹 ¡Remember that you can join the bot's official channel!*
@@ -237,9 +237,9 @@ mentionedJid: conn.parseMention(text.trim()),
 isForwarded: true,
 forwardingScore: 999,
 externalAdReply: {
-title: conn.getName(m.sender) + ', Thanks for using Sylphiette, you can follow me on Instagram by clicking here.',
+title: conn.getName(m.sender) + ', Thanks for using Zero, you can follow me on Instagram by clicking here.',
 body: author,
-thumbnailUrl: 'https://telegra.ph/file/dc68e52ff6227979070d0.jpg',
+thumbnailUrl: 'https://i.ibb.co/mztjyyX/file.jpg',
 sourceUrl: insta,
 mediaType: 1,
 renderLargerThumbnail: true
