@@ -148,6 +148,7 @@ export async function handler(chatUpdate) {
                     chat.captcha = false
                 if (!('nsfw' in chat))
                     chat.nsfw = false
+                if (!('modoadmin' in chat)) chat.modoadmin = false
                 if (!isNumber(chat.expired))
                     chat.expired = 0
                  if (!('rules' in chat))
@@ -167,6 +168,7 @@ export async function handler(chatUpdate) {
                     useDocument: true,
                     captcha: false,
                     nsfw: false, 
+                    modoadmin: false,
                     expired: 0,
                     rules: '',
                 }
@@ -530,8 +532,8 @@ this.sendMessage(id, {
                         //sourceUrl: '',
                         mediaType: 1,
                         description: `🍁 This bot is still in development.`,
-                        title: `🌺 Thank you for using Zero, the best WhatsApp bot.`,
-                        body: `💐 Developed by Jostin-444~`,          
+                        title: `🌺 Thank you for using Sylphiette, the best WhatsApp bot.`,
+                        body: `💐 Developed by I\`m Fz ~`,          
                         previewType: 0,
                         thumbnail: imagen,
                         mediaUrl: insta,
