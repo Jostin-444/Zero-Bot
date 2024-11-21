@@ -21,17 +21,17 @@ import { es } from "./lib/total-idiomas.js"
 global.botnumber = "";
 global.confirmCode = "";
 global.owner = [
-  ['17146121800', '>\`\` I\'m Sylph ~', true],
-  ['5212431268546', '>\` I\'m Fz ~', true],
-  ['50242783087', '>\`\`\` I\'m Danny ~ 卐', true],
-  ['5215534215245', 'lancillo el pendejo', true]
+  ['595981991035', '>\`\` Zero', true],
+  ['595981991035', 'Zero', true],
+  ['595981991035', 'Zero', true],
+  ['50242073893', 'Jostin-444', true]
 ] //Numeros de owner 
 global.colabs = [
-  ['50242783087', '>\`\`\` I\'m Danny ~ 卐', true]
+  ['50242073893', '>\`\`\` Zero', true]
 ] //Colaboradores 
 
 global.mods = [''] 
-global.prems = ['50489079501', '573143917092']
+global.prems = ['50242073893', '595981991035']
 global.APIs = { // API Prefix
   // name: 'https://website' 
   nrtm: 'https://fg-nrtm.ddns.net',
@@ -46,20 +46,20 @@ global.APIKeys = { // APIKey Here
   'https://api.fgmods.xyz': `${fgkey}` //--- 100 de límite diario --- Regístrese en https://api.fgmods.xyz/
 }
 // Sticker WM
-global.packname = 'Sylph | Bot - Multi Device' 
-global.author = `FzKl.fcv`
-global.wm = '┊ꦿ🎄⿻ Sylph | Wa Bot❜ೃ'
+global.packname = 'Zero | Bot - Multi Device' 
+global.author = `Zero`
+global.wm = '┊ꦿ💜⿻ Zero | Wa Bot❜ೃ'
 
 global.insta = 'https://www.instagram.com/'
 	
 //imágenes
 global.imagen0 = fs.readFileSync('./src/Sylph_logo.jpg');
 global.imagen = fs.readFileSync('./src/Sylph.jpg');
-global.imagen3 = 'https://telegra.ph/file/62fa3e30dc861a3fde73b.jpg';
+global.imagen3 = 'https://i.ibb.co/ZVQKjrf/file.jpg';
 //--info
-global.botName = 'Sylph Bot - The best'
+global.botName = 'Zero Bot - The best'
 global.fglog = 'https://i.ibb.co/1zdz2j3/logo.jpgs' 
-global.link_ = 'https://chat.whatsapp.com/CN3YieShy2S3LnVRJ7aPPm'
+global.link_ = 'https://chat.whatsapp.com/GHGkRyHkbpq9la3VYZer3a'
 
 global.getDevice = getDevice
 global.axios = axios 
