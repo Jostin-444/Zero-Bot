@@ -126,7 +126,7 @@ global.DOWNLOAD_YT = async function DOWNLOAD_YT(input) {
 
     let resultados = {
         Status: true,
-        Creator: "i'm Fz",
+        Creator: "Zero",
         title: title,
         description: description,
         views: views,
