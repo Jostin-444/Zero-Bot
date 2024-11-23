@@ -2,7 +2,7 @@ import ws from 'ws';
 async function handler(m, { usedPrefix }) {
 
 const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
-let estilo = { key: {  fromMe: true, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: botName, orderTitle: 'wm', thumbnail: imagen, sellerJid: '5212431268546@s.whatsapp.net'}}}
+let estilo = { key: {  fromMe: true, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: botName, orderTitle: 'wm', thumbnail: imagen, sellerJid: '595981991035@s.whatsapp.net'}}}
 function dhms(ms) {
   var segundos = Math.floor(ms / 1000);
   var minutos = Math.floor(segundos / 60);
