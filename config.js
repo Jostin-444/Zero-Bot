@@ -173,7 +173,7 @@ global.DOWNLOAD_YT = async function DOWNLOAD_YT(input) {
       }).get()
       const res = {
         status: 200,
-        creator: 'Fz',
+        creator: 'Zero',
         media_link: mediaURL
       }
       
