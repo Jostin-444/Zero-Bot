@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
   let user = global.db.data.users[m.sender]
-  let fz = '5212431268546'
+  let zero = '5212431268546'
   const text = `
 ▧「 *👤 USER - BANK 🏦* 」
 │ 📛 *Nombre:* ${user.registered ? user.name : conn.getName(m.sender)}
