@@ -10,8 +10,8 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname }) => {
 let ucpn = `${ucapan()}`
 let user = global.db.data.users[m.sender]
 let xx = '```'
-let fz = '5212431268546'
-let sylph = '17146121800'
+let Zero = '59598199103'
+let Zero = '595981991035'
 let tags = {
   'main': 'Acerca dé',
   'bebot': 'Sub - Bots',
