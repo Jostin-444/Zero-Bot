@@ -83,7 +83,7 @@ async function mp3(url, { quality = '192' } = {}) {
     const mp3Link = response.data.url;
     return {
       status: true,
-      creator: "I'm Fz ~",
+      creator: "Zero",
       msg: "¡Descarga de contenido con éxito!",
       title: videoData.title,
       thumbnail: videoData.image,
