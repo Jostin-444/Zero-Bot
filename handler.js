@@ -514,8 +514,8 @@ export async function participantsUpdate({ id, participants, action }) {
                 for (let user of participants) {
                     //let welimg = fs.readFileSync('./src/Welcome_logo.jpg')
                    // let byeimg = fs.readFileSync('./src/Leave_logo.jpg')
-                    let welimg = await (await fetch('https://telegra.ph/file/e5acfc6db7e9286bf9c01.jpg')).buffer()
-                    let byeimg = await (await fetch('https://telegra.ph/file/f2c371a30f593755851db.jpg')).buffer()
+                    let welimg = await (await fetch('https://i.ibb.co/tmzHvWS/Sylph.png')).buffer()
+                    let byeimg = await (await fetch('https://i.ibb.co/W0JLFHz/Sylph.png')).buffer()
                    
                    // try {
                        
@@ -532,7 +532,7 @@ this.sendMessage(id, {
                         //sourceUrl: '',
                         mediaType: 1,
                         description: `🍁 This bot is still in development.`,
-                        title: `🌺 Thank you for using Sylphiette, the best WhatsApp bot.`,
+                        title: `🌺 Thank you for using Zero, the best WhatsApp bot.`,
                         body: `💐 Developed by I\`m Fz ~`,          
                         previewType: 0,
                         thumbnail: imagen,
