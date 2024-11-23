@@ -39,7 +39,7 @@ function dhms(ms) {
  ${replyMessage.trim()}
  
  
-_*\`Developed by I'm Fz ~\`*_`.trim();
+_*\`Developed by Zero ~\`*_`.trim();
 
   await conn.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/980qV7F/Sylph.jpg' }, caption: responseMessage, mentions: conn.parseMention(responseMessage)}, {quoted: fkontak});
 }
