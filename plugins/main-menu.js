@@ -11,7 +11,7 @@ let ucpn = `${ucapan()}`
 let user = global.db.data.users[m.sender]
 let xx = '```'
 let fz = '59598199103'
-let Zero = '595981991035'
+let sylph = '595981991035'
 let tags = {
   'main': 'Acerca dé',
   'bebot': 'Sub - Bots',
