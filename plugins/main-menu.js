@@ -244,7 +244,7 @@ sourceUrl: insta,
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: fkontak })
-    m.react('🧝') 
+    m.react('💜') 
     
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error', m)
