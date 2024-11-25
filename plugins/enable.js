@@ -29,7 +29,14 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
          if (!isOwner) {
            global.dfail('group', m, conn)
           throw false
-        }
+        }}
+case "mute":
+switch (value) {
+case "ON": return "Silenciado"
+case "OFF": return "No silenciado"
+case "UNDEFINED": return "Sin definir"
+default: return "Desconocido"
+}
        } else if (!isAdmin) {
          global.dfail('admin', m, conn)
          throw false
