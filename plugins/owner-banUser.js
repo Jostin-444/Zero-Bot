@@ -38,7 +38,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 }
 handler.help = ['ban @user']
 handler.tags = ['owner']
-handler.command = ['ban'] 
+handler.command = ['ban', 'mute'] 
 handler.rowner = true
 
 export default handler
