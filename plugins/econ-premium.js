@@ -51,7 +51,7 @@ user.premium = true
 let txt = `
   *乂  ＰＲＥＭＩＵＭ  -  ＵＳＥＲ*
   ${xx}╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
-  • Usuario : @${m.sender.split`@`[0]} 🧝‍♂️
+  • Usuario : @${m.sender.split`@`[0]} 💜
   • Tiempo Premium : ${tiempoTl} hora(s) 🕑
   • Total a pagar : ${precio + com} 🏦
   • Diamantes restantes : ${user.diamond} 
