@@ -10,7 +10,7 @@ isForwarded: false,
  body: botName, 
  sourceUrl: 'https://whatsapp.com/channel/0029Vas84d48PgsGgLnVvl0y',
  thumbnail: imagen,
- thumbnailUrl: 'https://telegra.ph/file/c96db6f7b43e28d45d8dc.jpg', 
+ thumbnailUrl: 'https://i.ibb.co/c2T9mF6/Sylph.jpg', 
  mediaType: 1,
  showAdAttribution: true, 
  renderLargerThumbnail: true 
