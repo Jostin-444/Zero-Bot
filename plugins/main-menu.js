@@ -80,7 +80,7 @@ const defaultMenu = {
 
   ╭┈──────────────── ꒰ 🌺 ꒱
  │ *𖦹 ¡Remember that you can join the bot's official channel!*
-  ╰─┈➤ ‌ ${xx}Sylph - Is The Best${xx}\n
+  ╰─┈➤ ‌ ${xx}Zero - Is The Best${xx}\n
 `.trimStart(),
   header: `╭──ꕥ *\`%category\`* ꕥ──`,
   body: `│✾ *\`%cmd\`* %isdiamond %isPremium\n`,
