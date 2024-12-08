@@ -64,7 +64,7 @@ async function searchVideo(query) {
 // Actualizar estado del mensaje
 async function updateStatusMessage(conn, message, videoData, status) {
   await conn.sendMessage(message.key.remoteJid, {
-    text: `🔰 *Admin-TK Music Downloader*\n\n🎵 *Título:* ${videoData.title}\n⏳ *Duración:* ${videoData.duration.timestamp}\n👁️ *Vistas:* ${videoData.views}\n📅 *Publicado:* ${videoData.ago}\n🌐 *Enlace:* ${videoData.url}\n\n🕒 *${status}*`,
+    text: `🎄 *Zero-Bot Music Downloader*\n\n🎵 *Título:* ${videoData.title}\n⏳ *Duración:* ${videoData.duration.timestamp}\n👁️ *Vistas:* ${videoData.views}\n📅 *Publicado:* ${videoData.ago}\n🌐 *Enlace:* ${videoData.url}\n\n🕒 *${status}*`,
     edit: message.key,
   });
 }
