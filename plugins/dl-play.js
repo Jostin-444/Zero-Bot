@@ -5,7 +5,7 @@ import yts from 'yt-search';
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) {
     await conn.sendMessage(m.chat, {
-      text: `⚠️ Necesitas proporcionar una consulta de búsqueda.\n\nEjemplo: *${usedPrefix}${command} Rosa pastel*`,
+      text: `⚠️ Necesitas proporcionar una consulta de búsqueda.\n\nEjemplo: *${usedPrefix}${command} Evil Jordan - Playboi Carti*`,
     }, { quoted: m });
     await conn.sendMessage(m.chat, { react: { text: '❗', key: m.key } });
     return;
